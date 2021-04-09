@@ -9,3 +9,50 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+/** Header **/
+/* Navbar */
+
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row-reverse;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+/** Main **/
+/* Main Content */
+
+#maincontent {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logo {
+    width: 40%;
+    margin: auto;
+}
+
+
+/** Footer **/
+
+footer {
+    background-color: lightgray;
+}
+
+/* Country */
+
+/* Footer Navbar **/
+
+#navbar_footer ul {
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
