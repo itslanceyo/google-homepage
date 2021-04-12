@@ -3,6 +3,7 @@
 html {
     box-sizing: border-box;
     font-size: 100%;
+    font-family: sans-serif;
 }
 
 body {
@@ -17,11 +18,20 @@ body {
 #navbar ul {
     display: flex;
     list-style-type: none;
-    flex-direction: row-reverse;
+    justify-content: right;
 }
 
 #navbar a {
     text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+
+#navbar #signinbutton {
+    background-color: #0099ff;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
 }
 
 /** Main **/
@@ -32,18 +42,46 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 200px;
 }
 
 #logo {
-    width: 40%;
+    width: 300px;
     margin: auto;
 }
 
+/* Search Form */
+
+#search {
+    margin: 25px;
+}
+
+#searchbar {
+    width: 500px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button[type=submit] {
+    background-color: lightgray;
+    border: 0px;
+    padding: 5px 10px 5px 10px;
+    margin: 0 4px 0 4px;
+}
 
 /** Footer **/
 
 footer {
     background-color: lightgray;
+}
+
+hr {
+    color: lightgray;
 }
 
 /* Country */
