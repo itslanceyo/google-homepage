@@ -39,6 +39,7 @@ body {
 
 #navbar #signinbutton:hover {
     text-decoration: none;
+    background-color: #2b7de9;
 }
 
 /** Main **/
@@ -90,8 +91,14 @@ main {
 button[type=submit] {
     background-color: #f8f9fa;
     border: 0px;
+    border-radius: 3px;
     padding: 8px 15px 8px 15px;
     margin: 0 4px 0 4px;
+}
+
+button[type=submit]:hover {
+    box-shadow: 0 1.2px 1px 1px rgba(0,0,0,.20);
+    cursor: pointer;
 }
 
 /** Footer **/
