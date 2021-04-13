@@ -3,7 +3,7 @@
 html {
     box-sizing: border-box;
     font-size: 100%;
-    font-family: sans-serif;
+    font-family: "arial", sans-serif;
 }
 
 body {
@@ -27,6 +27,10 @@ body {
     color: black;
 }
 
+#navbar a:hover {
+    text-decoration: underline;
+}
+
 #navbar #signinbutton {
     background-color: #0099ff;
     color: white;
@@ -34,7 +38,16 @@ body {
     border-radius: 3px;
 }
 
+#navbar #signinbutton:hover {
+    text-decoration: none;
+}
+
 /** Main **/
+
+main {
+    
+}
+
 /* Main Content */
 
 #maincontent {
@@ -42,7 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 200px;
+    margin-top: 150px;
 }
 
 #logo {
@@ -78,6 +91,7 @@ button[type=submit] {
 
 footer {
     background-color: lightgray;
+    margin-top: 32%; /* SUBJECT TO CHANGE */
 }
 
 hr {
@@ -86,11 +100,31 @@ hr {
 
 /* Country */
 
+#country {
+    margin-left: 20px;
+}
+
 /* Footer Navbar **/
 
 #navbar_footer ul {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar_footer_section {
+    display: flex;
+    margin: 10px;
+}
+
+.navbar_footer_section li {
+    padding: 5px;
+}
+
+#navbar_footer a {
+    text-decoration: none;
 }
