@@ -83,7 +83,7 @@ body {
 
 #searchbar {
     width: 500px;
-    height: 30px;
+    height: 40px;
     border: 1px solid rgba(0,0,0,.20);
     border-radius: 30px;
     outline: none;
@@ -152,7 +152,7 @@ hr {
 
 .navbar_footer_section {
     display: flex;
-    margin: 10px;
+    margin: 10px 30px 15px 30px;
 }
 
 .navbar_footer_section li {
