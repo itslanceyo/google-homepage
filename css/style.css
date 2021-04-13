@@ -11,7 +11,6 @@ body {
     padding: 0;
 }
 
-
 /** Header **/
 /* Navbar */
 
@@ -24,7 +23,7 @@ body {
 #navbar a {
     text-decoration: none;
     margin-right: 15px;
-    color: black;
+    color: rgba(0,0,0,0.87);
 }
 
 #navbar a:hover {
@@ -32,7 +31,7 @@ body {
 }
 
 #navbar #signinbutton {
-    background-color: #0099ff;
+    background-color: #1a73e8;
     color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 3px;
@@ -58,6 +57,14 @@ main {
     margin-top: 150px;
 }
 
+#maincontent a {
+    text-decoration: none;
+}
+
+#maincontent a:hover {
+    text-decoration: underline;
+}
+
 #logo {
     width: 300px;
     margin: auto;
@@ -72,7 +79,7 @@ main {
 #searchbar {
     width: 500px;
     height: 30px;
-    border: 1px solid gray;
+    border: 1px solid rgba(0,0,0,.20);
     border-radius: 30px;
 }
 
@@ -81,7 +88,7 @@ main {
 }
 
 button[type=submit] {
-    background-color: lightgray;
+    background-color: #f8f9fa;
     border: 0px;
     padding: 8px 15px 8px 15px;
     margin: 0 4px 0 4px;
@@ -90,14 +97,15 @@ button[type=submit] {
 /** Footer **/
 
 footer {
-    background-color: lightgray;
+    background-color: #f2f2f2;
     position: fixed;
     bottom: 0px;
     width: 100%;
+    color: rgba(0,0,0,.54)
 }
 
 hr {
-    color: lightgray;
+    color: rgba(0,0,0,.20);
 }
 
 /* Country */
@@ -129,4 +137,9 @@ hr {
 
 #navbar_footer a {
     text-decoration: none;
+    color: inherit;
+}
+
+#navbar_footer a:hover {
+    text-decoration: underline;
 }
