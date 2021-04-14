@@ -89,11 +89,11 @@ body {
 #searchbar {
     width: 500px;
     height: 40px;
-    border: 1px solid rgba(0,0,0,.20);
+    border: 1px solid rgba(0,0,0,.10);
     border-radius: 30px;
     outline: none;
     text-indent: 40px;
-    margin-left: -20px; /* for some reason the searchbar was not centered, so this centers it */
+    margin-left: -20px; /* for some reason the searchbar was not centered, so this centers it better */
 }
 
 #searchbar:hover {
