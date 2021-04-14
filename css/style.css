@@ -81,6 +81,11 @@ body {
     margin: 25px;
 }
 
+.text_field {
+    display: flex;
+    justify-content: center
+}
+
 #searchbar {
     width: 500px;
     height: 40px;
@@ -88,6 +93,7 @@ body {
     border-radius: 30px;
     outline: none;
     text-indent: 40px;
+    margin-left: -20px; /* for some reason the searchbar was not centered, so this centers it */
 }
 
 #searchbar:hover {
@@ -96,8 +102,8 @@ body {
 
 #search_icon {
     position: relative;
-    top: 6px;
-    left: 38px;
+    top: 10px;
+    left: 16px;
     color: rgba(0,0,0,.35);
 }
 
